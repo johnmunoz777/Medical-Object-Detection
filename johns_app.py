@@ -76,7 +76,7 @@ if uploaded_file is not None:
     temp_file.write(uploaded_file.read())
     temp_file.close()
     cap = cv2.VideoCapture(temp_file.name)
-    model = YOLO("C:/Users/johnm/OneDrive/ailabel/runs/detect/train6/weights/best.pt")
+    model = YOLO("best.pt")
     classNames = ['gloves', 'scalpel', 'tube', 'needle', 'gauze', 'tape', 'blanket', 'stretcher', 'lights',
                   'monitor', 'mask', 'iv', 'scrubs', 'gasses', 'instrument']
     video_placeholder = st.empty()
