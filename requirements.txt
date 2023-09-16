@@ -1,6 +1,6 @@
 streamlit
-opencv-python-headless==4.5.3.56
-torch==1.10.0
-torchvision==0.11.0
-cvzone==1.5.3
-ultralytics==0.3.7
+opencv-python-headless
+torch
+torchvision
+cvzone
+ultralytics
