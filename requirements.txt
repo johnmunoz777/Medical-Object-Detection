@@ -4,4 +4,4 @@ torch
 torchvision
 cvzone
 ultralytics
-libgl1-mesa-glx
+
