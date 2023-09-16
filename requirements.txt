@@ -4,6 +4,6 @@ opencv_python
 opencv_python_headless
 streamlit==1.26.0
 supervision==0.9.0
-torch==2.1.0.dev20230825+cu121
+torch==1.10.0+cu121
 tqdm==4.66.1
 ultralytics==8.0.26
