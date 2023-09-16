@@ -1,11 +1,12 @@
 import streamlit as st
 import tempfile
-import cv2
 import os
 from ultralytics import YOLO
 import cvzone
 import math
-
+import cv2
+cv2.setUseOptimized(True)
+cv2.setNumThreads(4)  # Adjust the number of threads as needed
 # Custom CSS for professional styling
 st.markdown(
     """
